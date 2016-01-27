@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/list_item_padding">
+
+    <ImageView
+    android:id="@+id/grid_item_movie_image"
+    android:layout_width="@dimen/thumbnail_size_width"
+    android:layout_height="@dimen/thumbnail_size_height"
+    android:scaleType="centerCrop"/>
+
+</RelativeLayout>
+
